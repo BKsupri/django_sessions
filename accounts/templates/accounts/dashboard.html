@@ -1,0 +1,14 @@
+<!DOCTYPE html> 
+<html> 
+<head>   
+     <title>Student Dashboard</title> 
+</head> 
+<body>    
+    <h1>Welcome, {{ username }}!</h1>    
+    
+    <p>You are successfully logged in.</p>    
+    <p>Your username is retrieved from the Django session.</p>  
+    
+    <a href="{% url 'logout' %}">Logout</a> 
+</body> 
+</html>
